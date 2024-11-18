@@ -1,0 +1,35 @@
+<div hidden #newHtml>
+  <p>Testo di esempio nuovo</p>
+</div>
+
+<div class="card">
+  <div class="row">
+
+    <!-- Vecchia versione -->
+    <div class="col">
+      <h4>Vecchia versione</h4>
+      <div class="card system-generated">
+        <div #oldHtml>
+          <p>Testo di esempio vecchio</p>
+          <div>
+            <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+            AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+                9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+
+    <!-- Nuova versione -->
+    <div class="col">
+      <h4>Nuova versione</h4>
+      <div class="card current-document">
+        <div #diffHtml>
+        </div>
+      </div>
+    </div>
+    <!---->
+
+  </div>
+</div>
